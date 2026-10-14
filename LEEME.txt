@@ -1,0 +1,24 @@
+FRANCO · RUTINA Y COMIDA (app instalable)
+
+CONTENIDO
+  index.html, sw.js, manifest.webmanifest, icon-*.png  →  todo va junto, en la misma carpeta.
+
+PUBLICAR (GitHub Pages, gratis)
+  1. En github.com creá un repositorio nuevo (por ejemplo "franco-app"), público.
+  2. Subí estos archivos a la raíz del repositorio ("Add file" → "Upload files").
+  3. Settings → Pages → Branch: main, carpeta /(root) → Save.
+  4. En 1 o 2 minutos queda en https://TU-USUARIO.github.io/franco-app/
+
+INSTALAR EN EL CELULAR DE FRANCO
+  Android (Chrome): abrir el link → menú ⋮ → "Instalar app" o "Agregar a la pantalla principal".
+  iPhone (Safari): abrir el link → botón Compartir → "Agregar a inicio".
+
+ACTUALIZAR
+  Reemplazá index.html en el repositorio por el nuevo (y subí también sw.js si cambió).
+  La próxima vez que Franco abra la app con internet, se actualiza sola. Sus datos
+  (despensa, comidas, semana) no se pierden con las actualizaciones.
+
+NOTAS
+  - Esta versión ya viene con el botón de pruebas apagado.
+  - Los datos de Franco viven en su teléfono. Si borra los datos del navegador, los pierde.
+  - La app necesita internet al abrirla para buscar actualizaciones; sin conexión abre la última copia guardada.
